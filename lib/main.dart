@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mochums/Screens/home.dart';
+import 'package:mochums/Screens/homescreen.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -13,8 +14,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'MoChums',
-      theme: ThemeData(primarySwatch: Colors.blue, fontFamily: 'Open-Sans'),
-      home: MyHomePage(title: 'MoChums'),
+      theme: ThemeData(fontFamily: 'Open-Sans'),
+      home: ProductsScreen()
     );
   }
 }
