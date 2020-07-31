@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:mochums/Screens/home.dart';
+import 'package:mochums/Screens/body.dart';
 import 'package:mochums/constants.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class ProductsScreen extends StatelessWidget {
+class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: buildAppBar(),
       backgroundColor: kPrimaryColor,
-      body: Body(),
+      //body: Body(),
     );
   }
 

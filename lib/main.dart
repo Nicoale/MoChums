@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mochums/Screens/bhomescreen.dart';
 import 'package:mochums/Screens/homescreen.dart';
 
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'MoChums',
       theme: ThemeData(fontFamily: 'Open-Sans'),
-      home: ProductsScreen()
+      home: BHomeScreen()
     );
   }
 }
